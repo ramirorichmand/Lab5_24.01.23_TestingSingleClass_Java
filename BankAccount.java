@@ -60,7 +60,7 @@ public class BankAccount {
 
     public void withdrawal(double amount) {
         if (amount > this.balance) {
-            System.out.println("Insufficient funds.");
+            System.out.println("Not Enough funds.");
         } else {
             this.balance -= amount;
         }
