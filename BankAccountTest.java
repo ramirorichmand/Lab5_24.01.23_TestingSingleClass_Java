@@ -1,7 +1,7 @@
 public class BankAccountTest {
 
     public static void main(String[] args) {
-        BankAccount bankAccount = new BankAccount("Bob", "Bobbington", "01/01/2023", "135791");
+        BankAccount bankAccount = new BankAccount("Bob", "Bobbington", "24/01/2023", "135791");
 
         // Test deposit method
         bankAccount.deposit(1000);
